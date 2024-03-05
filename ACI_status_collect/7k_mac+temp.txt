@@ -1,0 +1,6 @@
+Value VLAN (Id+)
+Value MAC_ADDRESS (\S+\.\S+\.\S+)
+Value PORT (\S+)
+
+Start
+    ^\*\s+${VLAN}\s+${MAC_ADDRESS}\s+dynamic.*\s+${PORT} -> Record

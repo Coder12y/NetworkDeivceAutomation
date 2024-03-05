@@ -1,0 +1,5 @@
+Value Port (\S+)
+Value Description ([rlsls]*)
+
+Start
+    ^${Port}\s+\S+\s+\S+\s+${Description} -> Record

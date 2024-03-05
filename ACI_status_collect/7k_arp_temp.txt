@@ -1,0 +1,5 @@
+Value IP_ADDRESS (\d+\.\d+\.\d+\.\d+)
+Value MAC_ADDRESS (\S+\.1S+\.\S+)
+
+Start
+    ^${IP_ADDRESS}\s+.*\s+${MAC_ADDRESS} -› Record

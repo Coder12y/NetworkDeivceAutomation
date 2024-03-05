@@ -1,0 +1,8 @@
+Value Port (\S+)
+Value Status (notconnec|connected|disabled|sfpAbsent|xevrAbsen|down|err-disab|xcvrInval|linkFlapE|notconnected)
+Value Vlan (\S+)
+Value Duplex (\S+)
+Value Speed (\S+)
+
+Start
+    ^${Port}\s+.*${Status}\s+${Vlan}\s+${Duplex}\s+${Speed} -> Record

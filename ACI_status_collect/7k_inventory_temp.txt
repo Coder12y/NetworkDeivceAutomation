@@ -1,0 +1,5 @@
+Value Slot (Chassis|Slot\s+\d+)
+Value Desc (.+?)(?=")
+
+Start
+    ^NAME: "${Slot}. #\s+DESCR: "${Desc} -> Record

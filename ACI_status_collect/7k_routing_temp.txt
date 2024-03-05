@@ -1,0 +1,5 @@
+Value IP_ADDRESS (\d+\.\d+\.\d+\.\d+)
+Value Port (\S+)
+
+Start
+    ^\d+\s+${IP_ADDRESS}\s+${Port} -› Record
